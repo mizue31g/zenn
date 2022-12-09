@@ -22,7 +22,7 @@ Titile : AlphaFoldってなに？
 Googleではタンパク質に限らず、かなり以前からゲノムなどの生命科学分野において先進的な研究を行ってきました。[DeepVariant](https://github.com/google/deepvariant)はディープラーニングの技術を使ってゲノムデータの変異を解析するツールで、2017年にオープンソースとして公開しています。また、さらにその前の2014年には [Google Genomics](https://cloud.google.com/life-sciences)というクラウドサービスを提供しています (2019年に Cloud Life Sciences に名称変更しています)。
 :::
 
-#AlphaFoldの実行方法
+#AlphaFoldをGoogle Cloudで実行する方法
 
 DeepMindとGoogleはGoogle Cloud上で容易にかつ効率的にAlphaFold を実行するソリューションを提供しています。
 これまでに複数のブログサイト等でその方法を紹介していましたが、どの方法を使っても最終的にはAlphaFoldが予測したタンパク質の立体構造を格納したPDB(Protein Data Bank)ファイルが生成されます。PDBのビューワー等を使うことで、以下の図のようなタンパク質の立体構造を可視化できます。
