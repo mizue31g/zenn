@@ -6,7 +6,7 @@ topics: [gcp,googlecloud,alphafold,lifesciences]
 published: false
 ---
 
-# Titile : AlphaFoldってなに？
+# はじめに
 
 こんにちは。Google Cloudのカスタマーエンジニアの水江です。
 この記事は [Google Cloud Japan Advent Calendar 2022](https://zenn.dev/google_cloud_jp/articles/12bd83cd5b3370) の 14 日目の記事です。
@@ -33,7 +33,8 @@ Googleではタンパク質に限らず、かなり以前からゲノムなど�
 # AlphaFoldをGoogle Cloudで実行する方法
 
 DeepMindとGoogleはGoogle Cloud上で容易にかつ効率的にAlphaFold を実行するソリューションを提供しています。
-これまでに複数のブログサイト等でその方法を紹介していましたが、どの方法を使っても最終的にはAlphaFoldが予測したタンパク質の立体構造を格納したPDB(Protein Data Bank)ファイルが生成されます。PDBのビューワー等を使うことで、以下の図のようなタンパク質の立体構造を可視化できます。
+これまでに複数のブログ記事等でその方法を紹介していましたが、どの方法を使っても最終的にはAlphaFoldが予測したタンパク質の立体構造を格納したPDB(Protein Data Bank)ファイルが生成されます。PDBビューワー等を使うことで、以下の図のようなタンパク質の立体構造を可視化できます。
+https://user-images.githubusercontent.com/53395942/206932350-d85bfdd5-01f5-4de2-8c4a-d15ef4d0c224.gif
 
 ## Compute Engine上で実行
 これは最も一般的な方法です。Compute Engine(https://cloud.google.com/compute)で仮想サーバを立ち上げてAlphaFoldをインストールして実行するという流れです。Github上に手順が公開されています。
