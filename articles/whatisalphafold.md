@@ -6,12 +6,10 @@ topics: [gcp,googlecloud,alphafold,lifesciences]
 published: false
 ---
 
-# はじめに
-
 こんにちは。Google Cloudのカスタマーエンジニアの水江です。
 この記事は [Google Cloud Japan Advent Calendar 2022](https://zenn.dev/google_cloud_jp/articles/12bd83cd5b3370) の 14 日目の記事です。
 
-# 対象読者
+# TL;DR
 もしあなたが生命科学分野の研究者であれば AlphaFold のことはもうご存知でしょう。でも、この記事を読んでいる大半の方は、おそらく自分の業務とは関係なさそうなので、この記事のタイトルの通りAlphaFoldってなに？ という感じかもしれません。
 ゲノムやタンパク質に関する知識がない方でも、この記事を読んだあとは AlphaFold のことを分かっ(た気になっ)て、そしてGoogle Cloud上でAlphaFoldを実行するための複数の方法と、それぞれのメリットやデメリットをなんとなく理解してもらうことを目標とします。なお、AlphaFoldの実行方法については本記事内では概要のみを記載していますので、詳細な操作手順は他の記事へのリンクを参照してください。
 
