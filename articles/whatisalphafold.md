@@ -97,4 +97,4 @@ AlphaFoldのような革新的な技術を開発し、世界中の人々がア�
 
 今年も残り半月ほどですが、みなさまよい年末を迎えられますように。
 
-明日は OpenTelemetry Collector に関する記事です！お楽しみに〜
+明日は OpenTelemetry Collector に関する記事です！お楽しみに〜〜
